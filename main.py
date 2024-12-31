@@ -10,9 +10,9 @@ sys.stderr = open(os.devnull, "w")
 # Prompt the user for login credentials
 username = input("Enter your Instagram username: ")
 password = input("Enter your Instagram password: ")
-print("Please wait. This should only take a few moments...\n\n-")
+print("\nPlease wait. This should only take a few moments...\n\n-")
 # Define the session directory
-session_dir = "instabot_session"
+session_dir = "instabot_session10192019200"
 
 # Clean up the session directory if it already exists
 if os.path.exists(session_dir):
